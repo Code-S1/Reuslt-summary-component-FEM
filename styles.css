@@ -1,0 +1,192 @@
+@import url(https://fonts.bunny.net/css?family=hanken-grotesk:400);
+@import url(https://fonts.bunny.net/css?family=hanken-grotesk:500);
+@import url(https://fonts.bunny.net/css?family=hanken-grotesk:600);
+@import url(https://fonts.bunny.net/css?family=hanken-grotesk:700);
+@import url(https://fonts.bunny.net/css?family=hanken-grotesk:800);
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Hanken Grotesk', sans-serif;
+    box-sizing: border-box;
+}
+
+:root {
+    --reaction_red: hsl(0, 100%, 67%);
+    --memory_yellow: hsl(39, 100%, 56%);
+    --verbal_green: hsl(166, 100%, 37%);
+    --visual_blue: hsl(234, 85%, 45%);
+    --light_slate_blue_gradient: hsl(252, 100%, 67%);
+    --light_royal_blue_gradient: hsl(241, 81%, 54%);
+
+    --violet_blue_gradient: hsla(256, 72%, 46%, 1);
+    --persian_blue_gradient: hsla(241, 72%, 46%, 0);
+    --pale_blue: hsl(221, 100%, 96%);
+    --light_lavender: hsl(241, 100%, 89%);
+    --dark_gray_blue: hsl(224, 30%, 27%);
+}
+
+.main {
+    height: 100vh;
+}
+
+.left_section {
+    padding: 1.5rem 0;
+    text-align: center;
+    color: white;
+    background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    border-radius: 0 0 1.8rem 1.8rem;
+}
+
+.your_result_text {
+    color: var(--light_lavender);
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+
+.circle_76 {
+    max-width: 8.6375rem;
+    padding: 1.5rem;
+    margin: 1.3rem auto;
+    background-image: linear-gradient(hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+    border-radius: 50%;
+}
+
+.seventy_six {
+    font-weight: 800;
+    font-size: 3rem;
+}
+
+.of_100 {
+    color: var(--light_lavender);
+}
+
+.great {
+    font-size: 1.3rem;
+}
+
+.main_text {
+    color: var(--light_lavender);
+    max-width: 18rem;
+    margin: 0 auto;
+    margin: .8rem auto;
+}
+
+.right_section {
+    padding: 2rem;
+}
+
+.summary {
+    font-size: large;
+    font-weight: 600;
+
+}
+
+.display_flex {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    margin-top: 1.5rem;
+    padding: 1.5rem .7rem;
+    border: none;
+    border-radius: 1rem;
+    font-size: 1rem;
+    font-weight: 600;
+
+    & p {
+        margin: 0 auto 0 .5rem;
+    }
+
+    & .same {
+        margin: unset;
+        color: var(--dark_gray_blue);
+        font-weight: 600;
+    }
+}
+
+.continue {
+    border: none;
+    width: 100%;
+    margin-top: 2.5rem;
+    padding: 1.4rem;
+    font-size: 1.3rem;
+    background-color: var(--dark_gray_blue);
+    color: white;
+    font-weight: 500;
+    border-radius: 4rem;
+
+    &:hover {
+        background-image: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    }
+}
+
+
+
+.reaction {
+    background-color: hsl(0, 81%, 96%);color: var(--reaction_red);
+}
+
+.memory {
+    background-color: hsl(39, 100%, 96%);color: var(--memory_yellow);
+}
+
+.verbal {
+    background-color: hsl(166, 100%, 96%);color: var(--verbal_green);
+}
+
+.visual {
+    background-color: hsl(234, 85%, 96%);
+    color: var(--visual_blue);
+}
+
+@media(min-width:37.5rem) {
+    .main {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color:  hsl(221, 100%, 96%);
+    }
+    .summary{
+        margin-bottom: 2rem;font-weight: 700;
+        font-size: 1.4rem;
+    }
+
+    .left_section {
+        padding: 2rem 1rem;
+        border-radius: 2rem;
+        min-height: 30rem;
+        z-index: 1;
+    }
+
+    .main_text {
+        max-width: 15rem;
+        margin: 1.3rem 0;font-weight: 500;
+    }
+
+    .circle_76 {
+        padding: 2.5rem;
+        max-width: 11rem;
+    }
+
+    .display_flex {
+        margin-top: 1rem;
+        padding: 1rem .7rem;
+    }
+
+    .continue {
+        font-size: large;
+        padding: 1rem 0;
+    }
+.great{
+    font-size: 2rem;
+    font-weight: 600;
+}
+    .right_section {
+        background-color:white;
+        min-width: 25rem;
+        border-radius: 2rem;
+        min-height: 30rem;
+        padding: 2rem 2rem 2rem 5.5rem;
+        margin-left: -60px;box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
+    }
+}
