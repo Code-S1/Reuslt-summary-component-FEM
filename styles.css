@@ -99,7 +99,7 @@
 
     & .same {
         margin: unset;
-        color:hsl(222, 6%, 57%);
+        color: hsl(222, 6%, 57%);
         font-weight: 600;
     }
 }
