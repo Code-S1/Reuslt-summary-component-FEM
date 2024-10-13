@@ -162,9 +162,10 @@
         min-height: 30rem;
         z-index: 1;
     }
-    .seventy_six{
+
+    .seventy_six {
         font-weight: 800;
-    font-size: 4rem;
+        font-size: 4rem;
     }
 
     .main_text {
