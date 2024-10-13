@@ -162,6 +162,10 @@
         min-height: 30rem;
         z-index: 1;
     }
+    .seventy_six{
+        font-weight: 800;
+    font-size: 4rem;
+    }
 
     .main_text {
         max-width: 15rem;
@@ -171,7 +175,7 @@
 
     .circle_76 {
         padding: 2.5rem;
-        max-width: 11rem;
+        max-width: 12rem;
     }
 
     .display_flex {
@@ -187,6 +191,7 @@
     .great {
         font-size: 2rem;
         font-weight: 600;
+        margin: 1.5rem 0;
     }
 
     .right_section {
