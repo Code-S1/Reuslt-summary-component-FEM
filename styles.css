@@ -99,7 +99,7 @@
 
     & .same {
         margin: unset;
-        color: var(--dark_gray_blue);
+        color:hsl(222, 6%, 57%);
         font-weight: 600;
     }
 }
@@ -123,15 +123,18 @@
 
 
 .reaction {
-    background-color: hsl(0, 81%, 96%);color: var(--reaction_red);
+    background-color: hsl(0, 81%, 96%);
+    color: var(--reaction_red);
 }
 
 .memory {
-    background-color: hsl(39, 100%, 96%);color: var(--memory_yellow);
+    background-color: hsl(39, 100%, 96%);
+    color: var(--memory_yellow);
 }
 
 .verbal {
-    background-color: hsl(166, 100%, 96%);color: var(--verbal_green);
+    background-color: hsl(166, 100%, 96%);
+    color: var(--verbal_green);
 }
 
 .visual {
@@ -144,10 +147,12 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        background-color:  hsl(221, 100%, 96%);
+        background-color: hsl(221, 100%, 96%);
     }
-    .summary{
-        margin-bottom: 2rem;font-weight: 700;
+
+    .summary {
+        margin-bottom: 2rem;
+        font-weight: 700;
         font-size: 1.4rem;
     }
 
@@ -160,7 +165,8 @@
 
     .main_text {
         max-width: 15rem;
-        margin: 1.3rem 0;font-weight: 500;
+        margin: 1.3rem 0;
+        font-weight: 500;
     }
 
     .circle_76 {
@@ -177,16 +183,19 @@
         font-size: large;
         padding: 1rem 0;
     }
-.great{
-    font-size: 2rem;
-    font-weight: 600;
-}
+
+    .great {
+        font-size: 2rem;
+        font-weight: 600;
+    }
+
     .right_section {
-        background-color:white;
+        background-color: white;
         min-width: 25rem;
         border-radius: 2rem;
         min-height: 30rem;
         padding: 2rem 2rem 2rem 5.5rem;
-        margin-left: -60px;box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
+        margin-left: -60px;
+        box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
     }
 }
